@@ -1,0 +1,23 @@
+1. Results
+   Arsenal 2003/04: 38 of 38 scores rebuilt exactly; W26 D12 L0
+   Leverkusen 2023/24: 34 of 34 scores rebuilt exactly; W28 D6 L0
+
+2. xG calibration
+   Arsenal 2003/04: all shots in these matches 94 goals from 91.8 xG (ratio 1.02)
+   Leverkusen 2023/24: all shots in these matches 110 goals from 100.5 xG (ratio 1.09)
+
+3. Exact match probabilities against the simulation (shot model)
+   Arsenal 2003/04: largest gap in P(defeat) 0.0074; P(unbeaten) exact 0.00006 (1 in 15,710), simulated 0.00006
+   Leverkusen 2023/24: largest gap in P(defeat) 0.0077; P(unbeaten) exact 0.00292 (1 in 342), simulated 0.00295
+
+4. Sensitivity of P(unbeaten)
+   Arsenal 2003/04: shot model 1 in 16,204; possession model 1 in 15,979; xG x calibration 1 in 16,629; xG x 0.9 1 in 12,336; xG x 1.1 1 in 19,823
+   Leverkusen 2023/24: shot model 1 in 339; possession model 1 in 334; xG x calibration 1 in 325; xG x 0.9 1 in 360; xG x 1.1 1 in 324
+
+5. Red cards: style with and without the 11 v 11 cut
+   Arsenal 2003/04: passes_per_poss 4.61 (all play 4.60); long_share 0.12 (all play 0.12); pressure_opp_half 0.36 (all play 0.36); def_height 50.56 (all play 50.30); np_xg 1.42 (all play 1.46); opp_np_xg 0.70 (all play 0.73)
+   Leverkusen 2023/24: passes_per_poss 8.06 (all play 8.24); long_share 0.07 (all play 0.07); pressure_opp_half 0.56 (all play 0.57); def_height 62.28 (all play 63.16); np_xg 1.73 (all play 1.95); opp_np_xg 0.79 (all play 0.82)
+
+6. Game state and expected points
+   Arsenal 2003/04: 90 points from 72.8 expected (exact). Teams that lead often sit back and give up shots late, so xPts tends to underrate strong sides; part 2 shows how often each team led.
+   Leverkusen 2023/24: 90 points from 74.9 expected (exact). Teams that lead often sit back and give up shots late, so xPts tends to underrate strong sides; part 2 shows how often each team led.
